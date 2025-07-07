@@ -46,6 +46,19 @@ a {
     font-size: 20px;
     font-weight: 600;
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.image-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image-block {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
