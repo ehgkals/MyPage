@@ -58,7 +58,7 @@ a {
 
 .image-block {
     display: block;
-    width: 100%;
+    width: 40%;
     height: auto;
     object-fit: cover;
 }
