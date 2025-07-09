@@ -72,23 +72,21 @@ a {
 
 .context-block {
     opacity: 0; /* 투명 */
-    transform: translateY(30px); /* 아래로 40px 이동 */
     transition: opacity 0.6s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
     will-change: opacity, transform;
 }
 
 .context-block.visible {
     opacity: 1; /* 불투명 */
-    transform: translateY(0); /* 원래 위치 */
 }
 
 .subtitle {
     font-size: 20px;
     font-weight: 600;
+    line-height: 2;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    scroll-margin-top: 100px;
 }
 
 .context-wrapper {
