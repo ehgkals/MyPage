@@ -58,6 +58,18 @@ a {
     list-style: none;
 }
 
+.context-block {
+    opacity: 0; /* 투명 */
+    transform: translateY(40px); /* 아래로 40px 이동 */
+    transition: opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
+    will-change: opacity, transform;
+}
+
+.context-block.visible {
+    opacity: 1; /* 불투명 */
+    transform: translateY(0); /* 원래 위치 */
+}
+
 .subtitle {
     font-size: 20px;
     font-weight: 600;
