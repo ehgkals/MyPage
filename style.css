@@ -24,6 +24,10 @@ main {
     padding-top: 60px;
 }
 
+footer {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -60,8 +64,8 @@ a {
 
 .context-block {
     opacity: 0; /* 투명 */
-    transform: translateY(40px); /* 아래로 40px 이동 */
-    transition: opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
+    transform: translateY(30px); /* 아래로 40px 이동 */
+    transition: opacity 0.6s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
     will-change: opacity, transform;
 }
 
@@ -81,6 +85,7 @@ a {
 
 .context-wrapper {
     display: flex;
+    align-items: center;
 }
 
 .image-wrapper {

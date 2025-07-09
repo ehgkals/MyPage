@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {   // HTML이 완전히 로
       }
     });
   }, {
-    threshold: 0.3 // 요소의 30% 이상이 화면에 보일 때만 작동(값은 조정 가능)
+    threshold: 0.2 // 요소의 20% 이상이 화면에 보일 때만 작동(값은 조정 가능)
   });
 
   // 모든 context-block에 대해 관찰 시작
