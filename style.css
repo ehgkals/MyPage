@@ -3,9 +3,24 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Pretendard';
     background-color: #fdfbf4;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: #fdfbf4;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 60px;
 }
 
 a {
@@ -51,14 +66,27 @@ a {
     padding-bottom: 10px;
 }
 
-.image-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
+.context-wrapper {
+    display: flex;
 }
 
-.image-block {
-    display: block;
+.image-wrapper {
     width: 40%;
-    height: auto;
+    min-width: 150px;
+    max-width: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
     object-fit: cover;
+}
+
+.text {
+    flex: 1;
+    line-height: 1.8;
+    margin: 10px;
+    color: #555555;
 }

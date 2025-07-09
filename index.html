@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <title>Document</title>
+    <script src="app.js"></script>
 </head>
 <body>
     <header>
@@ -14,39 +15,123 @@
                 <a href="index.html">JUNE.</a>
             </div>
             <ul class="navigation-bar-menu">
-                <li><a href="homepage_introduction.html">소개</a></li>
-                <li><a href="homepage_activity.html">활동</a></li>
-                <li><a href="homepage_project.html">프로젝트</a></li>
+                <li><a href="#about-me">소개</a></li>
+                <li><a href="#activity">활동</a></li>
+                <li><a href="#project">프로젝트</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="main-page">
-
             <div style="height:40px"></div>
-            <div style="width: 50%; color:#555555; text-align:left; line-height: 1.5; padding-left:30px;">
+            <div style="width: 50%; min-width: 430px; color:#555555; text-align:left; line-height: 1.5; padding-left:30px; word-break: keep-all;">
                 저는 금융IT전문가로 성장해가고 있는 개발자 박준상입니다. 변화하는 금융 환경과 디지털 기술을 함께 이해하며, 고객과 현장에 도움이 되는 실질적인 IT 역량을 쌓아가고 있습니다. 앞으로도 꾸준한 학습과 도전을 통해 더 나은 금융 서비스를 만드는 전문가로 성장하겠습니다.
                 <br><br>
-                <div style="text-align: right; font-weight: bold;">- J.S. Park, IT Developer</div>
+                <div style="text-align: right; font-weight: bold;"> - J.S. Park, IT Developer </div>
             </div>
             <div style="height:40px"></div>
             
-            <div class="subtitle-wrapper">
-                <hr class="divider" style="border-top: 1px solid black;">
-                <div class="subtitle">개발자가 된 이유</div>
-                <hr class="divider" style="border-top: 1px solid #e5e7eb;">
+            <div id="about-me" class="context-block">
+                <div class="subtitle-wrapper">
+                    <hr class="divider" style="border-top: 1px solid black;">
+                    <div class="subtitle">
+                        <span style="color: black;"> 소개 </span>
+                        <span style="color: #999999;"> About me </span>
+                    </div>
+                    <hr class="divider" style="border-top: 1px solid #e5e7eb;">
+                </div>
+
+                <div class="context-wrapper">
+                    <div class="image-wrapper">
+                        <img class="image" src="images/develop.png">
+                    </div>
+                    <div class="text">
+                        <span style="font-size: 20px; font-weight: 700;"><span style="color: black;"> 학력 </span> <span style="color: #999999;"> Education </span></span><br>
+                        <span style="color: black;"> 전북대학교 컴퓨터공학부 (2019.03 ~ 2025.08) </span><br>
+                        <span style="color: #999999;"> Jeonbuk National University Computer Science and Engineering </span><br><br>
+                        
+                        <span style="font-size: 20px; font-weight: 700;"><span style="color: black;"> 어학 </span> <span style="color: #999999;"> Languages </span></span><br>
+                        <span style="color: black;"> 토익 스피킹 AL(Advanced Low) </span><br>
+                        <span style="color: #999999;"> Toiec Speaking AL(Advanced Low) </span><br><br>
+
+                        <span style="font-size: 20px; font-weight: 700;"><span style="color: black;"> 자격증 </span> <span style="color: #999999;"> Certifications </span></span><br>
+                        <span style="color: black;"> SQLD </span><br>
+                        <span style="color: #999999;"> SQL Developer </span><br><br>
+
+                        <span style="font-size: 20px; font-weight: 700;"><span style="color: black;"> 기술 </span> <span style="color: #999999;"> Stack </span></span><br>
+                        <span><img style="width:auto; height:40px;" src="images/html5-icon.png"> <img style="width:auto; height:40px;" src="images/css-icon.png"> <img style="width:auto; height:40px;" src="images/js-icon.png"></span>
+                    </div>
+                </div>
             </div>
 
-            <div class="article-wrapper">
-                <div class="image-wrapper">
-                    <img class="image-block" src="images/develop.png">
-                </div>
-                <div class="text-wrapper">
+            <div style="height:200px"></div>
 
+            <div id="activity" class="context-block">
+                <div class="subtitle-wrapper">
+                    <hr class="divider" style="border-top: 1px solid black;">
+                    <div class="subtitle">
+                        <span style="color: black;">활동</span>
+                        <span style="color: #999999;">Activity</span>
+                    </div>
+                    <hr class="divider" style="border-top: 1px solid #e5e7eb;">
+                </div>
+
+                <div class="context-wrapper">
+                    <div class="image-wrapper">
+                        <img class="image" src="images/sori-angel.jpg">
+                    </div>
+                    <div class="text">
+                        <span style="font-size: 20px; font-weight: 700; color: black;">2019 전주세계소리축제 자원활동가 소리천사 (2019.기억안남)</span><br>
+                        <span>
+                            전주세계소리축제는 판소리를 비롯한 전통음악과 동시대 한국음악을 중심에 둔 한국 대표 공연예술제입니다. 
+                            전북을 대표하는 ‘소리’ 자산을 가장 중요한 문화적 자원으로 삼아 오늘의 관객과 만나고 미래 세대에게 전하는 예술축제입니다. 
+                            전주세계소리축제는 또한 한국을 대표하는 월드뮤직 축제입니다. 
+                            세계의 전통음악과 동시대 음악의 트렌드를 한국 예술계에 소개하고 교류와 대화로 우리 음악 문화를 더욱 풍성하게 가꿉니다. 
+                            전통음악과 월드뮤직의 두 날개로 소리축제는 로컬과 글로벌을 잇는 플랫폼으로서의 미션을 수행중입니다.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="context-wrapper">
+                    <div class="image-wrapper">
+                        <img class="image" src="images/woorifisa-image.png">
+                    </div>
+                    <div class="text">
+                        <span style="font-size: 20px; font-weight: 700; color: black;">우리FIS 아카데미 5기 클라우드 서비스 개발 (2025.07 ~ 2025.12)</span><br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div style="height:200px"></div>
+
+            <div id="project" class="context-block">
+                <div class="subtitle-wrapper">
+                    <hr class="divider" style="border-top: 1px solid black;">
+                    <div class="subtitle">
+                        <span style="color: black;">프로젝트</span>
+                        <span style="color: #999999;">Project</span>
+                    </div>
+                    <hr class="divider" style="border-top: 1px solid #e5e7eb;">
+                </div>
+
+                <div class="context-wrapper">
+                    <div class="image-wrapper">
+                        <img class="image" src="images/simpyo-icon.png">
+                    </div>
+                    <div class="text">
+                        <span style="font-size: 20px; font-weight: 700; color: black;">쉼표</span><br>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer>
+        <hr class="divider" style="border-top: 1px solid #e5e7eb;">
+        <div style="height:30px"></div>
+        © 2025 June. All rights reserved.
+    </footer>
 </body>
 </html>
