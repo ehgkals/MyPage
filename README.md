@@ -21,7 +21,7 @@ SEO            82
 # TODO
 이미지에 alt 속성 추가
 
-웹폰트 <link rel="preload">로 처리
+웹폰트 "preload"로 처리
 
 자바스크립트 defer 처리
 
