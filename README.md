@@ -46,4 +46,9 @@ light house: 그대로
 page speed: Performance 68 -> 99
 
 
+### 3. 이미지 png -> webp 로 변환
+
+page speed 기준: LCP 3.7초 -> 0.9초
+
+
 # 성능 개선 후(V3)
