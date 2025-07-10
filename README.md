@@ -39,4 +39,11 @@ page speed: Performance 72 -> 68, Accessibility 80 -> 92 , SEO -> 82 -> 91
 
 눈에 띄는 성능 차이는 없다
 
+### 3. script defer 처리
+
+light house: 그대로
+
+page speed: Performance 68 -> 99
+
+
 # 성능 개선 후(V3)
