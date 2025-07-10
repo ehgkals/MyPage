@@ -28,10 +28,15 @@ SEO            82
 이미지 사이즈 최적화, 확장자 변경(현재는 .png)
 
 # 성능 개선 과정
-### 모든 이미지 태그에 alt 속성을 추가
+### 1. 모든 이미지 태그에 alt 속성을 추가
 
 light house: Performance 99 -> 98, Accessibility 80 -> 92, SEO -> 82 -> 91
 
 page speed: Performance 72 -> 68, Accessibility 80 -> 92 , SEO -> 82 -> 91
+
+
+### 2. 웹폰트 rel="styleshhet"에서 rel="preload"로 변경
+
+눈에 띄는 성능 차이는 없다
 
 # 성능 개선 후(V3)
