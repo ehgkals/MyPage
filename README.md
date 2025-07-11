@@ -51,4 +51,4 @@ page speed: Performance 68 -> 99
 page speed 기준: LCP 3.7초 -> 0.9초
 
 
-# 성능 개선 후(V3)
+# 성능 개선(V3)
